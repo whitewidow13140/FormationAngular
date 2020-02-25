@@ -24,6 +24,12 @@
         <div class="stats">
           <i class="fa fa-refresh"></i> Update Now
         </div>
+        <div>
+          {{ stat.getDateDernierRefresh() | date:'shortTime' }}
+        </div>
+        <div>
+          {{ stat.getDateDernierRefresh() | date | uppercase }}
+        </div>
       </div>
     </div>
 </div>
