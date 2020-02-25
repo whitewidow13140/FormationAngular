@@ -9,10 +9,10 @@ import { Appreciation } from 'app/shared/models/Appreciation';
 })
 export class StatistiqueComponent implements OnInit {
 
-  // public revenue: Statistique;
-  // public capacity: Statistique;
-  // public followers: Statistique;
-  // public errors: Statistique;
+  public revenue: Statistique;
+  public capacity: Statistique;
+  public followers: Statistique;
+  public errors: Statistique;
 
   getAppreciationClass(stat: Statistique) {
     switch (stat.getAppreciation()) {

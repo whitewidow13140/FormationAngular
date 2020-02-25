@@ -16,6 +16,7 @@ import { UpgradeComponent }         from '../../pages/upgrade/upgrade.component'
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { StatistiqueComponent } from 'app/shared/components/statistique/statistique.component';
+import { BlockBorderDirective } from 'app/block-border.directive';
 
 @NgModule({
   imports: [
@@ -33,7 +34,8 @@ import { StatistiqueComponent } from 'app/shared/components/statistique/statisti
     IconsComponent,
     MapsComponent,
     NotificationsComponent,
-    StatistiqueComponent
+    StatistiqueComponent,
+    BlockBorderDirective
   ]
 })
 
